@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    height: 80%;
+    width: 85%;
+    background-color: #fff;
+}
+.mainTop{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px 10px 0px 0px;
+}
+.mainTop .elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.mainTop .ball{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 35px;
+   width: 35px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.ball h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+.mainBottom{
+    position: relative;
+    height: calc(100% - 100px);
+    background-color: rgba(155, 220, 98, 0.963);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+.mainBottom .mainBall{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+.mainBall:hover{
+    background-color: rgb(17, 201, 143);
+}
